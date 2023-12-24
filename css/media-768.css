@@ -1,0 +1,461 @@
+@media (max-width: 950px) {
+
+  [class*="__container"] {
+    max-width: 800px;
+  }
+
+
+/* 
+  .hero-content__heading {
+    line-height: 95px;
+  }
+
+  .hero-content__text {
+    line-height: 27px;
+    margin-bottom: 130px;
+  } */
+
+  .hero__content {
+    width: 100%;
+  }
+
+  .hero__slide_1::before {
+    background-image: url('../img/hero/hero1-768.jpg');
+  }
+
+  .hero__slide_2::before {
+    background-image: url('../img/hero/hero2-768.jpg');
+  }
+
+  .hero__slide_3::before {
+    background-image: url('../img/hero/hero3-768.jpg');
+  }
+
+
+
+
+
+  /* менеяем залику выпадашки селекта */
+  .choices__list--dropdown,
+  .choices__list[aria-expanded] {
+    background-color: var(--color-night-rider);
+  }
+
+
+  .catalog-bottom__left {
+    width: 35%;
+  }
+
+  .catalog-bottom__right {
+    width: 50%;
+  }
+
+  .event-card__info {
+    padding-left: 0;
+  }
+  .partners__title {
+    margin-bottom: 23px;
+  }
+
+  .partners__link {
+    height: 110px;
+  }
+
+  .partners__img {
+    height: 49%;
+  }
+
+  .partners__img_small {
+    height: 35%;
+  }
+
+  .partners__button-prev,
+  .partners__button-next {
+    top: 40px;
+  }
+
+
+  .partners__container {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+
+
+
+
+  /* Секция Contacts */
+
+  .form__vadidation {
+    flex-wrap: wrap;
+  }
+
+
+  .form__input-box {
+    margin-bottom: 13px;
+    margin-right: 11px;
+  }
+
+  .form__input {
+    padding-right: 115px;
+  }
+
+  .office-address {
+    margin-bottom: 20px;
+  }
+
+  .form__btn {
+    padding: 0 0;
+  }
+
+
+}
+
+
+@media (max-width: 840px) {
+
+  [class*="__container"] {
+    max-width: 800px;
+    padding-left: 50px;
+    padding-right: 40px;
+  }
+
+  /* header */
+  .header-top__container {
+    padding-left: 50px;
+    padding-right: 40px;
+  }
+
+  .logo__link {
+    left: 38%;
+    top: 15%;
+  }
+
+  .logo__link-invisible {
+    opacity: 0;
+  }
+
+  .burger-invisible {
+    display: none;
+  }
+
+  .burger-animate {
+    opacity: 0;
+  }
+
+
+  .search-form__label {
+    width: 100%
+      /* animation:  */
+      /* animation: fadeInFromNone 3s ease-in-out; */
+
+  }
+
+  .search-form__mobil-full {
+    width: 100%
+  }
+
+  .search-form__mobil-general-visible {
+    width: 100%;
+  }
+
+
+  /* animation: fadeInFromNone 3s ease-in-out; */
+  @keyframes fadeInFromNone {
+    0% {
+      display: none;
+      opacity: 0;
+    }
+
+    1% {
+      display: block;
+      opacity: 0;
+    }
+
+    100% {
+      display: block;
+      opacity: 1;
+    }
+  }
+
+
+  /* Секция hero */
+
+  /* .hero__container {
+    padding-left: 50px;
+    padding-right: 40px;
+  }
+
+
+
+  .hero-content {
+    max-width: 100%;
+  }
+
+  .hero-swiper-slide.bg1 {
+    background-image: url("../media-img/hero-bg-1_768.jpg");
+  }
+
+  .hero-swiper-slide.bg2 {
+    background-image: url("../media-img/hero-bg-2_768.jpg");
+  }
+
+  .hero-swiper-slide.bg3 {
+    background-image: url("../media-img/hero-bg-3_768.jpg");
+  } */
+
+ /*Секция  о нас */
+
+  /* .us__descr {
+  
+    max-width: 650px;
+    
+  } */
+
+  /* Секция Gallery */
+
+  .gallery {
+    background-image: url(../media-img/gallery-768.jpg);
+  }
+
+  .gallery {
+    max-height: 889px;
+    overflow: hidden;
+  }
+
+  .gallery__container {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 100%;
+    max-height: 889px;
+  }
+
+  .gallery-slider {
+    width: 100%;
+  }
+
+  .gallery-filter__checkbox {
+    padding-bottom: 10px;
+  }
+
+  .gallery-filter {
+    width: 42%;
+  }
+
+  .gallery-slider {
+    padding-top: 18px;
+    padding-bottom: 75px;
+    padding-left: 0;
+    width: 100%;
+  }
+
+
+  .gallery-slide__img {
+    min-width: 317px;
+    max-height: 280px;
+  }
+
+
+  /* .gallery-swiper-slide::after {
+    top: 50%;
+    left: 40%;
+    width: 66%;
+    height: 76%;
+  } */
+
+
+  /* .gallery-slide-img {
+    object-fit: none;
+  } */
+
+
+  .gallery-filter__checkbox {
+    padding-top: 38px;
+    padding-bottom: 0;
+  }
+
+  /* Секция catalog */
+
+  .catalog-bottom {
+    flex-direction: column-reverse;
+  }
+
+  .catalog__container {
+    padding-top: 80px;
+  }
+
+  .catalog__descr {
+    margin-bottom: 19px;
+  }
+
+  .catalog-bottom__right {
+    width: 100%;
+  }
+
+  .accordion__list-full,
+  .accordion-full__list {
+    height: 313px;
+    column-count: 3;
+    width: 100%;
+  }
+
+  .accordion-content__full,
+  .accordion-full__content {
+    height: 335px;
+  }
+
+  .accordion,
+  .accordion-full {
+    width: 99%;
+  }
+
+  .catalog__item:nth-child(n+13) {
+    padding-left: none;
+  }
+
+  .catalog__item:nth-child(n+10) {
+    padding-left: 31px;
+  }
+
+  .catalog__item:nth-child(n+19) {
+    padding-left: 44px;
+  }
+
+  .catalog-bottom__left {
+    width: 100%;
+    padding-top: 50px;
+    padding-right: 10px;
+  }
+
+  .work__img {
+    margin-bottom: 20px;
+  }
+
+  .work-left__text {
+    margin-top: 0;
+    padding-top: 8px;
+    margin-bottom: 5px;
+  }
+
+  
+  .work-left__descr {
+   max-width: 640px;
+  }
+
+  /* Секция events */
+  .events__container {
+    max-width: 768px;
+  }
+
+  .event-card {
+    width: 97%;
+    height: 98%;
+  }
+
+  .event-card__place,
+  .event-card__time {
+    padding-right: 0px;
+  }
+
+  .event-card__title {
+    max-width: 95%;
+    margin-bottom: 5px;
+  }
+
+
+  .event-card__bottom-link {
+    padding-top: 20px;
+    margin-bottom: 42px;
+  }
+
+  .events-button-pagination {
+    top: 101%;
+  }
+
+  /* марджины булетов */
+  .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet,
+  .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: 16px var(--swiper-pagination-bullet-horizontal-gap, 7px);
+  }
+
+  .events {
+    padding-bottom: 63px;
+  }
+
+
+  span.swiper-pagination-bullet {
+    margin-right: 5px;
+  }
+
+  .event-card__info {
+    padding-left: 15px;
+  }
+
+
+
+  /* Секция projects */
+
+  .projects__title {
+    margin-bottom: 18px;
+  }
+
+  .projects__info {
+    max-width: 97%;
+    /* max-height: 415px;
+    overflow: hidden; */
+    margin-bottom: 28px;
+  }
+
+  .projects__subtitle {
+    margin-bottom: 27px;
+  }
+
+  .projects-swiper-container {
+    width: 87%;
+  }
+
+  .partners-slide__logo {
+    min-height: 106px;
+  }
+
+
+  .just-validate-error-label,
+  .js-validate-error-label {
+    top: 0;
+  }
+
+  .projects-site__hidden{
+    display: none;
+  }
+
+  .partners__container {
+    padding-left: 50px;
+    padding-right: 60px;
+  }
+
+
+  .projects__container {
+    padding-bottom: 38px;
+  }
+
+  /* footer */
+
+  .social__item {
+    padding-right: 10px;
+  }
+
+  .social__item:not(:last-child) {
+    margin-right: 10px;
+  }
+
+
+  .modal,
+  .modal-picture-info {
+    width: 668px;
+    min-height: 594px;
+  }
+
+
+
+
+}
